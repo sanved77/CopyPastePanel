@@ -4,8 +4,19 @@ import '../main.css';
 class Box extends Component {
 
     copyToClipBoard () {
-        console.log(this.props.text);
-        navigator.clipboard.writeText(this.props.text);
+        const input = document.createElement('input');
+        input.setAttribute("id","hidden_boi");
+        document.body.appendChild(input);
+        input.value = this.props.text;
+        input.style.position = "absolute";
+        input.style.left = "-999px";
+        input.style.top = "0";
+        input.focus();
+        input.select();
+        const result = document.execCommand('copy');
+        if (result === 'unsuccessful') {
+            console.error('Failed to copy text.');
+        }
     }
 
     render() {
