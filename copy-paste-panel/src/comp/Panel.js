@@ -9,8 +9,8 @@ class Panel extends Component {
             <div>
                 <h2 className="headings">{this.props.data.label}</h2>
                 <div className="link_box">
-                    {this.props.data.tabs.map(entry => (
-                        <Box label={entry.label} picture={entry.picture} text={entry.text} color={entry.color} bigText={entry.bigText}></Box>
+                    {this.props.data.tabs.map((entry, i) => (
+                        <Box key={i} label={entry.label} picture={entry.picture} text={entry.text} color={entry.color} bigText={entry.bigText}></Box>
                     ))}
                 </div>
             </div>
