@@ -1,0 +1,58 @@
+.App {
+  display: block;
+  margin: 24px 5% 0 5%;
+} 
+
+.box {
+  box-sizing: border-box;
+  width: 240px;
+  height: 120px;
+  margin: 0 16px 16px 0;
+  border: 2px solid #000;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:hover {
+  background-color: #77a5d3;
+  color: #fff;
+}
+
+.box:active {
+  border: 8px solid #000;
+}
+
+.box i {
+  margin-right: 8px;
+}
+
+.box .label {
+  font-size: 1.5em;
+}
+
+.box .tooltip { 
+  visibility: hidden;
+  background-color: #ff8d00;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  margin-top: 80px;
+  z-index: 2;
+}
+
+.box .tooltip.tooltip_big { 
+  max-width: 300px;
+  margin-top: 160px;
+  text-align: justify;
+}
+
+.box:hover .tooltip {
+  visibility: visible;
+}
+
+.box:hover .tooltip_big {
+  visibility: visible;
+}
