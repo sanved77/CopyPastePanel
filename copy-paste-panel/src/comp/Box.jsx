@@ -4,10 +4,9 @@ import '../main.css';
 class Box extends Component {
 
     copyToClipBoard () {
-        const input = document.createElement('input');
-        input.setAttribute("id","hidden_boi");
+        const input = document.createElement('textarea');
         document.body.appendChild(input);
-        input.value = this.props.text;
+        input.innerHTML = this.props.text;
         input.style.position = "absolute";
         input.style.left = "-999px";
         input.style.top = "0";
