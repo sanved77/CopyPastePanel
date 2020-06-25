@@ -60,8 +60,8 @@ const panels = {
             {
                 label: 'Wiseass',
                 picture: 'fas fa-democrat',
-                text: '- Developed smartphone applications for Android/iOS using React Native, Android Studio and designed and developed web applications on WooCommerce and MEAN stack by translating client requirements.\n' +
-                '- Oversaw end to end process for client acquisition and sales for 15+ clients',
+                text: '- Developed various Android apps for business management assisted by cloud application services (SaaS) which were designed using Node, Express and MongoDB and optimized with load balancers and microservices architecture\n' +
+                '- Built business development strategies and oversaw the end to end process for client acquisition and sales for 15+ clients',
                 color: '#00abff',
                 bigText: true
             }

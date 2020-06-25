@@ -21,7 +21,6 @@ class Box extends Component {
     render() {
         return(
             <div className="box" onClick={ () => this.copyToClipBoard() }>
-                {/* <img src={this.props.picture}></img> */}
                 <i className={this.props.picture + ' fa-2x'} style={{color: this.props.color}}></i>
                 <p className="label">{this.props.label}</p>
                 {!this.props.bigText && (<span className="tooltip">{this.props.text}</span>)}
