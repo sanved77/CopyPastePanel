@@ -18,13 +18,20 @@ class Box extends Component {
         }
     }
 
+    // changeText () {
+    //     console.log('here')
+    //     this.props.text
+    // }
+
     render() {
         return(
-            <div className="box" onClick={ () => this.copyToClipBoard() }>
+            <div className="box" 
+                onClick={ () => this.copyToClipBoard() } 
+                onMouseOver={() => this.props.textChange(this.props.text)}
+                onMouseLeave={() => this.props.textChange('Hover on a box to see text')}>
                 <i className={this.props.picture + ' fa-2x'} style={{color: this.props.color}}></i>
                 <p className="label">{this.props.label}</p>
                 {!this.props.bigText && (<span className="tooltip">{this.props.text}</span>)}
-                {this.props.bigText && (<span className="tooltip tooltip_big">{this.props.text}</span>)}
             </div>
         )
     }

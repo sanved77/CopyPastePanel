@@ -1,7 +1,27 @@
 .App {
-  display: block;
+  display: flex;
   margin: 24px 5% 0 5%;
 } 
+
+.button_pad {
+  width: 60%;
+}
+.text_pad {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 40%;
+  padding: 24px;
+}
+
+.text_pad .text_box {
+  border:  2px solid #000;
+  box-sizing: border-box;
+  padding: 24px;
+  text-align: justify;
+  white-space: pre-line;
+}
 
 .box {
   box-sizing: border-box;
