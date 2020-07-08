@@ -18,7 +18,7 @@ const panels = {
                 label: 'Sanved',
                 picture: 'far fa-user',
                 text: 'http://sanved.com/',
-                color: '#254c73'
+                color: '#9d2a1b'
             },
             {
                 label: 'Play',
@@ -80,30 +80,32 @@ const panels = {
                 bigText: true
             },
             {
-                label: 'Easy Apply',
-                picture: 'fab fa-github',
-                text: 'Hello AAAA !\n\n' +
-                'Hope you and your family are doing well during this outbreak. I am a graduate student and have completed my Masters in Computer Science this May.\n\n' +
-                'I have 2+ years of experience as a Software Engineer at Core Management Systems and at Enhance VR and as a Research Assistant at my university focusing on development of web applications and large scale software systems supporting 10,000+ daily users. My expertise lie in JavaScript, Java and web frameworks like React and Vue, along with this I have also developed smartphone applications in native and hybrid environments.\n\n' +
-                'The XXXX position at YYYY, ZZZZ aligns with my skill set and I believe I would be a productive asset to your company. Please let me know if you’d be open to a conversation to discuss potential opportunities. I’m happy to provide you with any additional information you might need. I am attaching my resume for your reference. I look forward to hearing from you.\n\n' +
+                label: 'Web - Job ID',
+                picture: 'fas fa-globe',
+                text: 'Hello AAAA !\n' +
+                'I am sure you must be incredibly busy and must be getting a lot of emails, but this will only take 60 seconds to read.\n\n' + 
+                'I am a graduate student and have completed my Masters in Computer Science this May and I have 2+ years of experience as a Software Engineer focusing on development of web apps and large scale systems supporting 15,000+ daily users. My expertise lies in JavaScript ES6, Java and web frameworks like Node, React and Vue.\n\n' +
+                'The XXXX position at YYYY, ZZZZ aligns with my skill set and I believe I would be a productive asset to your company. Would you be willing to share my LinkedIn profile and resume with the hiring team and let them know that I\'ve applied? I would obliged if you could put in a good word.\n\n' +
+                'I can totally understand if you are busy and can\'t respond, but even a 1-2 line reply would mean a lot to me. I am attaching my resume for your reference. Happy to chat more if you have the time.\n\n' +                
                 'Thank you.',
-                color: '#000',
+                color: '#dcb02c',
                 bigText: true
             },
             {
-                label: 'Easy Apply Droid',
-                picture: 'far fa-user',
-                text: 'Hello Yana!\n\n' +
-                'Hope you and your family are doing well during this outbreak. I am a graduate student and have completed my Masters in Computer Science this May.\n\n' +
-                'I have 3+ years of experience as an Android Engineer focusing on lucid UI/UX and performance. My expertise lie in native as well as hybrid environments like NativeScript and React native. I have developed and published numerous apps on the play store as well.\n\n' + 
-                'The Android Engineer position at Mitek aligns with my skill set and I believe I would be a productive asset to your company. Please let me know if you’d be open to a conversation to discuss potential opportunities. I’m happy to provide you with any additional information you might need. I am attaching my resume for your reference. I look forward to hearing from you.\n\n' +
+                label: 'Web - Team',
+                picture: 'fas fa-globe',
+                text: 'Hello AAAA !\n' +
+                'I am sure you must be incredibly busy and must be getting a lot of emails, but this will only take 60 seconds to read.\n\n' + 
+                'I am a graduate student and have completed my Masters in Computer Science this May and I have 2+ years of experience as a Software Engineer focusing on development of web apps and large scale systems supporting 15,000+ daily users. My expertise lies in JavaScript ES6, Java and web frameworks like Node, React and Vue.\n\n' +
+                'I was wondering if there are any open positions in your team which align with my skill set. I believe I would be a productive asset to your company. Please let me know if you’d be open to a conversation to discuss potential opportunities.\n\n' +
+                'I can totally understand if you are busy and can\'t respond, but even a 1-2 line reply would mean a lot to me. I am attaching my resume for your reference. Happy to chat more if you have the time.\n\n' +                
                 'Thank you.',
-                color: '#254c73',
+                color: '#dcb02c',
                 bigText: true
             },
             {
                 label: 'Ask Referal',
-                picture: 'fab fa-google-play',
+                picture: 'fas fa-people-arrows',
                 text: 'I came across the Software Engineer, Backend role at eBay, (Job ID - R0039152) and recently applied. I have a Master\'s Degree in Computer Science with 2 years of experience and the listed requirements closely match my background and skills.\n\n' +
 
                 'Would you be willing to share my LinkedIn profile and resume with the hiring team and let them know that I\'ve applied? I would obliged if you could put in a good word.\n\n' +
@@ -114,15 +116,39 @@ const panels = {
                 
                 'Regards,\n' +
                 'Sanved Tapkeer',
-                color: '#45c0c3',
+                color: '#b02cdc',
                 bigText: true
             },
             {
                 label: 'Recruiter',
-                picture: 'fab fa-google-play',
+                picture: 'fas fa-user-tie',
                 text: 'Hi AAAA!\n' +
                 'My name is Sanved Tapkeer and I notice that you\'re hiring for XXXX. With a master’s degree in Computer Science and hands-on experience in software development, I am confident I will be an asset to your company and would love to connect to discuss potential opportunities',
-                color: '#45c0c3',
+                color: '#ff7373',
+                bigText: true
+            },
+            {
+                label: 'Droid - Job ID',
+                picture: 'fab fa-android',
+                text: 'Hello AAAA !\n' +
+                'I am sure you must be incredibly busy and must be getting a lot of emails, but this will only take 60 seconds to read.\n\n' + 
+                'I am a graduate student and have completed my Masters in Computer Science this May and I have 3+ years of experience as an Android Engineer focusing on lucid UI/UX and performance. My expertise lie in native as well as hybrid environments like NativeScript and React native. I have developed and published numerous apps on the play store as well.\n\n' +
+                'The XXXX position at YYYY, ZZZZ aligns with my skill set and I believe I would be a productive asset to your company. Would you be willing to share my LinkedIn profile and resume with the hiring team and let them know that I\'ve applied? I would obliged if you could put in a good word. \n\n' +
+                'I can totally understand if you are busy and can\'t respond, but even a 1-2 line reply would mean a lot to me. I am attaching my resume for your reference. Happy to chat more if you have the time.\n\n' +                
+                'Thank you.',
+                color: '#4d9d1b',
+                bigText: true
+            },
+            {
+                label: 'Droid - Team',
+                picture: 'fab fa-android',
+                text: 'Hello AAAA !\n' +
+                'I am sure you must be incredibly busy and must be getting a lot of emails, but this will only take 60 seconds to read.\n\n' + 
+                'I am a graduate student and have completed my Masters in Computer Science this May and I have 3+ years of experience as an Android Engineer focusing on lucid UI/UX and performance. My expertise lie in native as well as hybrid environments like NativeScript and React native. I have developed and published numerous apps on the play store as well.\n\n' +
+                'I was wondering if there are any open positions in your team which align with my skill set. I believe I would be a productive asset to your company. Please let me know if you’d be open to a conversation to discuss potential opportunities. \n\n' +
+                'I can totally understand if you are busy and can\'t respond, but even a 1-2 line reply would mean a lot to me. I am attaching my resume for your reference. Happy to chat more if you have the time.\n\n' +                
+                'Thank you.',
+                color: '#4d9d1b',
                 bigText: true
             }
         ]
